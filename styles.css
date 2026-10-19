@@ -1,0 +1,171 @@
+
+/* ESTILOS GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #171717;
+    color: #f0ede6;
+    font-family: Arial, sans-serif;
+}
+
+/* ENCABEZADO */
+
+header {
+    padding: 80px 8%;
+    border-bottom: 1px solid #555;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 80px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 14px;
+    color: #aaaaaa;
+    letter-spacing: 2px;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    padding: 60px 8%;
+}
+
+/* INTRODUCCION */
+
+.introduccion {
+    margin-bottom: 100px;
+    max-width: 600px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.introduccion p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #bbbbbb;
+}
+
+/* SECCION DE LIBROS */
+
+.libros {
+    border-top: 1px solid #555;
+    padding-top: 40px;
+}
+
+/* BARRA DE NAVEGACION */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 40px 0;
+}
+
+nav button {
+    background-color: transparent;
+    color: #f0ede6;
+    border: 1px solid #777;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav button:hover {
+    background-color: #f0ede6;
+    color: #171717;
+}
+
+nav button.activo {
+    background-color: #a8443d;
+    border-color: #a8443d;
+    color: white;
+}
+
+/* INFORMACION DEL LIBRO */
+
+#contenido {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+#contenido img {
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+}
+
+.informacion {
+    max-width: 550px;
+}
+
+.informacion h3 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.informacion p {
+    color: #bbbbbb;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    border-top: 1px solid #555;
+    padding: 30px 8%;
+    color: #888888;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 60px 6%;
+    }
+
+    header h1 {
+        font-size: 48px;
+    }
+
+    main {
+        padding: 40px 6%;
+    }
+
+    #contenido {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #contenido img {
+        width: 220px;
+    }
+
+    .informacion h3 {
+        font-size: 32px;
+    }
+
+}

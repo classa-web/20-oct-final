@@ -1,0 +1,25 @@
+
+[
+    {
+        "id": 1,
+        "titulo": "Distancia de rescate",
+        "anio": 2014,
+        "genero": "Novela",
+        "descripcion": "Una mujer se encuentra agonizando mientras un niño intenta reconstruir los acontecimientos que la llevaron hasta allí. La novela explora la maternidad, el miedo y los peligros invisibles que amenazan la vida cotidiana."
+    },
+    {
+        "id": 2,
+        "titulo": "Kentukis",
+        "anio": 2018,
+        "genero": "Novela",
+        "descripcion": "En distintas partes del mundo, unos dispositivos tecnológicos con forma de peluche permiten que desconocidos observen la vida privada de otras personas. La historia explora la vigilancia, la intimidad y las relaciones humanas."
+    },
+    {
+        "id": 3,
+        "titulo": "Pájaros en la boca",
+        "anio": 2009,
+        "genero": "Cuentos",
+        "descripcion": "Una colección de relatos en los que situaciones cotidianas se transforman en experiencias extrañas e inquietantes. Las historias cuestionan los límites entre lo familiar, lo absurdo y lo perturbador."
+    }
+]
+
